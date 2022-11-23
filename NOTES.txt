@@ -1,0 +1,48 @@
+
+APPROACH : 
+1 ) setup app.js file by adding imports and setting up navigation settings  
+2 ) created two screens : Home and Details
+3 ) created constants folder for data usage 
+4 ) created components folder and added FocusedSTatusBar , HomeHeader , NFTCard 
+
+5) display NFT data on the home page using FLatList
+6) first check by rendering each data as a Text (item.name)
+7) after that instead of Text replace with NFT Card component , so that NFT cards are displayed 
+
+8 ) create css for NFT cards and a circle button over it as a component 
+9 ) add subinfo about the NFTs and add styles to it (subinfo.js)
+10 ) subinfo has two branches  : people and enddate -> people has another link know as ImageCmp
+11 ) add NFTTitle info to bottom of subinfo layer (NFTTitle.js) 
+11 ) add EthPrice info to bottom of NFTTitle (EthPrice.js) 
+
+12 ) set up the home header which is above the NFT card components
+13 ) bring logo and profile picture in a single div 
+14 ) in next row , create a serach bar 
+15 ) all these lies within the home header
+16 ) add search function for search bar in home.js file 
+
+
+17 ) Details.js screen represents the whole NFT detail page 
+18 ) create two components DetailsDesc.js and DetailsBid.js 
+19 ) DetailsDesc.js is used for NFT Title and its description which has read more and show less functionality
+20 ) DetailsBid.js is used for bid placed by other people and lies at bottom of details page
+
+
+
+NEED TO SEE :
+-> why additional file is needed for exports (index.js in constants and assets folders )
+-> understand searching functionality (
+    in home header , when text gets changed it calls the onSearch function again and again 
+    so in home.js , the function which is passed (i.e) the function which needs to be called repeatedly is the handleSearch functionality
+)
+
+
+NEWLY LEARNT :
+-> StatusBar from react-native 
+-> isFocused from react-navigation/core
+-> FLatList from react native 
+-> ... purpose 
+
+
+
+PROBLEMS : 
